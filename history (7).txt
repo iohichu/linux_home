@@ -1,0 +1,51 @@
+   0 cd ..
+   1 cd
+   2 cd /
+   3 1s
+   4 ls
+   5 cd /bin 
+   6 ls
+   7 ls -1
+   8 ls -l
+   9 ls -la
+  10 cd
+  11 mkdir 1
+  12 touch 1
+  13 ls
+  14 touch 1.txt
+  15 ls
+  16 tree
+  17 tree /opt
+  18 tree /
+  19 touch
+  20 clear
+  21 cd /tmp
+  22 pwd
+  23 mkdir mydir
+  24 ls
+  25 cd mydir
+  26 ls
+  27 mkdir test
+  28 ls
+  29 cd test/
+  30 touch ivan.txt
+  31 ls
+  32 ls -l
+  33 mkdir /opt/newfolder 
+  34 cp ivan.txt /opt/newfolder/
+  35 cd ..
+  36 rm /tmp/mydir/
+  37 rm /tmp/mydir/test/ivan.txt 
+  38 ls /opt/newfolder/
+  39 tree /opt
+  40 cd /opt/newfolder
+  41 ls
+  42 cd /etc
+  43 mkdir /var/test2 && touch /var/test2/ivan2.txt
+  44 mkdir /home/newfolder2
+  45 mv /var/test2/ivan2.txt /home/newfolder2/testfile.txt
+  46 ls /home/newfolder2/
+  47 rm -rf /home/newfolder2/
+  48 cd
+  49 history
+  50 history > history.txt 
